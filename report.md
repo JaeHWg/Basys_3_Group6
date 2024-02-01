@@ -9,7 +9,7 @@ B3 Logic Test Bench:
 
 
 Basys_logic.v 
-\nContains our source code for the Boolean expression y = a AND b OR c. This file has 3 switches as input which represents a,b and c. It has a singular output y which is represented by an LED on the Basys 3. 
+\n Contains our source code for the Boolean expression y = a AND b OR c. This file has 3 switches as input which represents a,b and c. It has a singular output y which is represented by an LED on the Basys 3. 
 \nBasys_logic_tb.v
 \nContains our test bench code which calls the Basys_logic.v source code and tests the different combinations of a,b and c and the following output y. 
 \nChallenges and Lesson Learnt:
