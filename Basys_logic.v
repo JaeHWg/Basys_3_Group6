@@ -25,5 +25,7 @@ module Basys_logic(
         output led // declare the output LED
 );
 
+//Assign
+
 assign led = (sw[1] & sw[0])|sw[2]; //defining the gate logic
 endmodule
